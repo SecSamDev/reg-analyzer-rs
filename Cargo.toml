@@ -1,0 +1,15 @@
+[package]
+name = "reg-analyzer-rs"
+version = "0.1.0"
+authors = ["Samuel Garcés Marín <samuel.garces@protonmail.com>"]
+keywords = ["forensic", "windows", "parser", "registry", "cybersecurity"]
+categories = ["parsing"]
+description = "Forensic library to analyze Registry artifacts using forensic-rs framework"
+license = "MIT"
+
+[dependencies]
+forensic-rs = "0"
+chrono = "0.4"
+serde = { version = "1.0", features = ["derive"] }
+uuid = "1"
+frnsc-liveregistry-rs = "0"
